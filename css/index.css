@@ -479,7 +479,7 @@ header .btn{
 }
 
 .footer .grupo-1 .box h5{
-    color: var(--color5);
+    color: var(--color4);
     -webkit-text-stroke: 10px solid var(--color1);
     text-transform: uppercase;
     margin-bottom: 25px;
@@ -606,6 +606,7 @@ header .menu .close-btn{
 }
 
 header .menu a{
+    color: var(--color3);
     display: block;
     font-size: 20px;
     margin: 20px;

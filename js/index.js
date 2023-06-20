@@ -23,7 +23,7 @@ window.addEventListener('scroll', function() {
       var position = link.getBoundingClientRect().top + scrollTop;
   
       // Aplicar la clase 'scroll' si el enlace está en la parte superior de la ventana
-      if (window.scrollY>0) {
+      if (window.scrollY>0 ) {
         link.classList.add('scroll');
       } else {
         link.classList.remove('scroll');

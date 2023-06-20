@@ -187,7 +187,7 @@ a{
 
 .footer{
     width: 100%;
-    background-color: var(--color1);
+    background-color: var(--color3);
 }
 
 .footer .grupo-1{
@@ -209,11 +209,11 @@ a{
 
 .footer .grupo-1 .box p{
     margin-bottom: 10px;
-    color: var(--color2);
+    color: var(--color1);
 }
 
 .footer .grupo-1 .contacto{
-    color: var(--color3);
+    color: var(--color1);
     display: inline-block;
 }
 
@@ -247,7 +247,7 @@ a{
 
 .footer .grupo-1 .enlaces a{
     text-decoration: none;
-    color: var(--color2);
+    color: var(--color1);
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -259,7 +259,7 @@ a{
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: var(--color3);
+    color: var(--color1);
     margin-right: 10px;
     text-align: center;
     font-size: 2em;
@@ -267,14 +267,14 @@ a{
 }
 
 .footer .grupo-1 .box .red-social a:hover{
-    color: var(--color2);
+    color: var(--color4);
 }
 
 .footer .grupo-2{
     background-color: var(--color5);
     padding: 15px 10px;
     text-align: center;
-    color: var(--color4);
+    color: var(--color1);
 }
 
 .footer .grupo-2 small{
@@ -332,7 +332,7 @@ a{
     nav, article {
         width: 100%;
         height: auto;}
-      }
+      
       .main{
         height: fit-content;
       }
@@ -342,6 +342,7 @@ a{
         grid-gap: 30px;
         padding: 35px 0px;
     }
+}
     
     /*Lapotops y tablets*/
     
