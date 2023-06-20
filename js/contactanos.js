@@ -1,14 +1,36 @@
 'use strict'
 //Barra de navegacion
-window.addEventListener("scroll", function () {
-    var header = this.document.querySelector("header");
-    header.classList.toggle('down', window.scrollY > 0)
-
+window.addEventListener("scroll",function(){
+    var header=this.document.querySelector("header");
+    header.classList.toggle('down',window.scrollY>0)
+    
     var logo = this.document.querySelector(".brand img");
-    if (window.scrollY > 0) {
-        logo.setAttribute('src', '/img/logo.png')
+    if(window.scrollY>0){
+        logo.setAttribute('src','/img/logo.png')
+        link.classList.add('scroll'); 
+    }else{
+        logo.setAttribute('src','/img/logo-1.png')
     }
 });
+
+window.addEventListener('scroll', function() {
+    var links = document.getElementsByClassName('link');
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  
+    // Verificar la posición de cada enlace
+    for (var i = 0; i < links.length; i++) {
+      var link = links[i];
+      var position = link.getBoundingClientRect().top + scrollTop;
+  
+      // Aplicar la clase 'scroll' si el enlace está en la parte superior de la ventana
+      if (window.scrollY>0) {
+        link.classList.add('scroll');
+      } else {
+        link.classList.remove('scroll');
+      }
+    }
+  });
+
 
 var menu = this.document.querySelector('.menu')
 var menuBtn = this.document.querySelector('.menu-btn')

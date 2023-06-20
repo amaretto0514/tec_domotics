@@ -108,13 +108,17 @@ header .menu ul li{
     list-style: none;
 }
 
+.link.scroll{
+    color: var(--color3)
+}
+
 header .menu a{
     text-transform: uppercase;
     font-size: 16px;
     border-radius: 20px;
     margin: 0 30px;
     text-decoration: none;
-    color: var(--color3);
+    color: var(--color1);
     -webkit-text-stroke: 0.2px var(--color5);
     letter-spacing: 2px;
     font-weight: 500;

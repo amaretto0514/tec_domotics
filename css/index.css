@@ -29,14 +29,13 @@ header {
     padding: 20px 80px;
     height: 80px;
     align-items: center;
-    
     justify-content: space-around;
     transition:  0.5s;
-    
 }
 
 header.down{
     background: var(--color1);
+    color: var(--color3);
     box-shadow:  1px 9px 20px -5px rgba(0, 0, 0, 0.59);
     padding: 15px 80px; 
 }
@@ -59,6 +58,7 @@ header .brand img{
 }
 
 header .brand img:hover{
+    src: url("/img/logo-1.png");
     background-color:var(--color2);
     border-radius: 5px;
 }
@@ -88,7 +88,7 @@ header .menu a{
     border-radius: 20px;
     margin: 0 30px;
     text-decoration: none;
-    color: var(--color3);
+    color: var(--color1);
     -webkit-text-stroke: 0.2px var(--color5);
     letter-spacing: 2px;
     font-weight: 500;
@@ -101,6 +101,10 @@ header .menu a:hover{
     color: var(--color1);
     background-color: var(--color3);
 
+}
+
+.link.scroll{
+    color: var(--color3)
 }
 
 header .btn{
@@ -476,6 +480,7 @@ header .btn{
 
 .footer .grupo-1 .box h5{
     color: var(--color5);
+    -webkit-text-stroke: 10px solid var(--color1);
     text-transform: uppercase;
     margin-bottom: 25px;
     font-size: 20px;
